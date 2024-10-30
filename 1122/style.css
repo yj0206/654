@@ -1,0 +1,13 @@
+#alice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#alice-container img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  opacity: 0; /* Start with all images hidden */
+  transition: opacity 1s ease-in-out; /* Smooth transition for opacity */
+}
